@@ -1,0 +1,22 @@
+* {
+    background-color: black;
+}
+
+#hello {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding: 20rem;
+
+    opacity: 0;
+    -webkit-transition: opacity 2s ease-in;
+    -moz-transition: opacity 2s ease-in;
+    -ms-transition: opacity 2s ease-in;
+    -o-transition: opacity 2s ease-in;
+    transition: opacity 2s ease-in;
+}
+
+#hello:hover {
+    opacity: 1;
+}
