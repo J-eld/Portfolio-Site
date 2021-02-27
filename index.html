@@ -70,7 +70,7 @@
 						<!-- Contact -->
 							<article id="contact">
 								<h2 class="major">Contact</h2>
-								<form method="post" action="mailto:jadeldik@gmail.com" enctype="text/plain">
+								<form enctype="text/plain" method='post' action='javascript:sendMail()'>
 									<div class="fields">
 										<div class="field half">
 											<label for="name">Name</label>
@@ -87,11 +87,10 @@
 									</div>
 									<ul class="actions">
 										<li><input type="submit" value="Send Message" class="primary" /></li>
-										<li><input type="reset" value="Reset" /></li>
 									</ul>
 								</form>
 								<ul class="icons">
-									<li><a href="tel:021323506" target="_blank" class="fas fa-phone"><span class="label"></span></a></li>
+									<li><a href="tel:+6421323506" target="_blank" class="fas fa-phone"><span class="label"></span></a></li>
 									<li><a href="mailto:jadeldik@gmail.com" target="_blank" class="fas fa-envelope"><span class="label"></span></a></li>
 									<li><a href="https://www.linkedin.com/in/jad-el-dik/" target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
 									<li><a href="https://github.com/J-eld" target="_blank" class="icon brands fa-github" ><span class="label">GitHub</span></a></li>
@@ -159,7 +158,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
 										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
 										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-										<li><a href="https://github.com/J-eld" class="icon brands fa-github"><span class="label">Github</span></a></li>
+										<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
 									</ul>
 
 									<h4>Actions</h4>
@@ -357,6 +356,8 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/contact.js"></script>
+			<script src="https://smtpjs.com/v3/smtp.js"></script>
 
 	</body>
 </html>
