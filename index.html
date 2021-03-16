@@ -11,6 +11,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script src="assets/js/notify.js"></script>
 	</head>
 	<body class="is-preload">
 
@@ -70,7 +71,7 @@
 						<!-- Contact -->
 							<article id="contact">
 								<h2 class="major">Contact</h2>
-								<form enctype="text/plain" method='post' action='javascript:sendMail()'>
+								<form enctype="application/x-www-form-urlencoded" name="contact-form" id="contact-form" method="post" action='https://portfolio-site-server.herokuapp.com/mail'>
 									<div class="fields">
 										<div class="field half">
 											<label for="name">Name</label>
@@ -356,7 +357,6 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-			<script src="assets/js/contact.js"></script>
 			<script src="https://smtpjs.com/v3/smtp.js"></script>
 
 	</body>
